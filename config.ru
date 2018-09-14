@@ -1,3 +1,4 @@
 require './app'
 
-map('/healthz') { run healthzController }
+map('/healthz') { run HealthzController }
+map('/user') { run UserController }
